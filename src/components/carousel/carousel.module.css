@@ -1,0 +1,40 @@
+.carousel {
+    width: 75vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.item {
+    background-color: #fff;
+    padding: 1em;
+    margin: 0 1em;
+    flex: none;
+    border-radius: 1em;
+    text-align: center;
+}
+
+.item div {
+    margin: 1em 0;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.oldPrice {
+    font-size: .8em;
+    text-decoration: line-through;
+}
+
+.price {
+    background-color: #FAA46A;
+    font-weight: bold;
+    padding: 1em;
+    border-radius: 1em;
+}

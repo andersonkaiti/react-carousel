@@ -1,0 +1,16 @@
+.buttons {
+    margin: 1em 0;
+    width: 100%;
+    text-align: center;
+}
+
+.buttons button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.buttons button:first-child img {
+    transform: rotate(180deg);
+}
