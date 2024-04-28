@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { type ItemType, getData } from "@/components/services/shoes-services";
+import { type ItemType, getData } from "@/services/shoes-services";
 import { handleLeftClick, handleRightClick } from "@/components/carousel/carousel-utils";
 import ButtonBar from "@/components/button-bar/button-bar";
 import Carousel from "@/components/carousel/carousel";

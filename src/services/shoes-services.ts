@@ -8,5 +8,5 @@ export type ItemType = {
 
 export async function getData(): Promise<ItemType[]> {
     const result = await fetch("/static/shoes.json");
-    return await result.json();
+    return await result.json() as ItemType[];
 }
